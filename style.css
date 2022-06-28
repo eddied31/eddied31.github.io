@@ -267,9 +267,17 @@ div.container {
 
 #nerdy:hover{
    color: #cccccc;
-}@media screen and (max-width: 600px) {
-    .explode {
-        font-size: 1.5em;
+@media only screen and (max-width: 640px) {
+    .explode{
+     font-size: 2em;
+    }
+    nav a {
+        font-size: 1em;
+    }
+    nav ul{
+        flex-direction: column;
+        align-items: center;
+
     }
 }
 @media (max-width:1400px) {
